@@ -58,19 +58,80 @@ h1.logo
 .b1
 {
 	width: 450px;
-	height: 60px;
+	height: 43px;
 	padding-left: 50px;
 	padding-top: 30px;
 
 }
+.fb
+{
+	margin: 26px;
+	width: 73px;
+	height: 92px;
+	background-color: #3b5998;
+	float: left;
+}
+
+.fb:hover
+{
+	background-color: #3b5898c5;
+}
+
+.cv
+{
+	margin: 26px;
+	width: 73px;
+	height: 92px;
+	background-color: #93c748;
+	float: left;
+}
+
+.cv:hover
+{
+	background-color: #92c748bd;
+}
+
+.mail
+{
+	margin: 26px;
+	width: 73px;
+	height: 92px;
+	background-color: #d64a3a;
+	float: left;
+}
+
+.mail:hover
+{
+	background-color: #d64a3ad2;
+}
+
+.in
+{
+	margin: 26px;
+	width: 73px;
+	height: 92px;
+	background-color: #0174b1;
+	float: left;
+}
+
+.in:hover
+{
+	background-color: #0173b1c7;
+}
 .content
 {
 	float: left;
-	width: 500px;
 }
 .divcontent
 {
 	background-color: #43474A;
-	width: 500px;
-	height: 700px;
+	width: 440px;
+	height: 576px;
+	padding: 30px;
+	line-height: 30px;
+}
+#footer
+{
+	text-align: center;
+	margin: 20px 0;
 }
