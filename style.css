@@ -5,25 +5,26 @@ body
 	font-family: 'Open Sans', sans-serif;
 	font-size: 17px;
 }
-
 #mainheader 
 {
 	margin: 30px auto 0;
 	width: 1000px;
 }
-
 h1.logo
 {
 	font-style: italic;
 	font-size: 40px;
 	font-weight: 700;
 	text-align: center;
-	color: #d1d0b1;
 	letter-spacing: 3px;
 	margin: 90px 20px 105px 80px;
 	float: left;
 }
-
+a.logolink
+{
+	text-decoration: none;
+	color: #d1d0b1;
+}
 .circular 
 {
 	width: 250px;
@@ -34,7 +35,6 @@ h1.logo
 	float: left;
 	background: url(image.jpg);
 }
-
 #main
 {
 	margin: 30px auto 0;
@@ -48,7 +48,6 @@ h1.logo
 	letter-spacing: 1px;
 	margin-top: 30px;
 	margin-bottom: 30px;
-	/*margin-right: 20px;*/
 }
 .branch
 {
@@ -57,66 +56,91 @@ h1.logo
 }
 .b1
 {
-	width: 450px;
+	width: 300px;
 	height: 43px;
 	padding-left: 50px;
-	padding-top: 30px;
+	padding-top: 20px;
+	border-top: 1px dotted #d1d0b1;
+	border-bottom: 1px dotted #d1d0b1;
+	margin-right: 150px;
+}
+.b2
+{
+	width: 300px;
+	height: 43px;
+	padding-left: 50px;
+	padding-top: 20px;
+	border-bottom: 1px dotted #d1d0b1;
+	margin-right: 150px;
 
+}
+a.blink
+{
+	text-decoration: none;
+	color: #efefef;
+	display: block;
 }
 .fb
 {
 	margin: 26px;
+	margin-top: 60px;
 	width: 73px;
 	height: 92px;
 	background-color: #3b5998;
 	float: left;
+	border-radius: 8px;
 }
-
 .fb:hover
 {
 	background-color: #3b5898c5;
 }
-
 .cv
 {
 	margin: 26px;
+	margin-top: 60px;
 	width: 73px;
 	height: 92px;
 	background-color: #93c748;
 	float: left;
+	border-radius: 8px;
 }
-
 .cv:hover
 {
 	background-color: #92c748bd;
 }
-
 .mail
 {
 	margin: 26px;
+	margin-top: 60px;
 	width: 73px;
 	height: 92px;
 	background-color: #d64a3a;
 	float: left;
+	border-radius: 8px;
 }
-
 .mail:hover
 {
 	background-color: #d64a3ad2;
 }
-
 .in
 {
 	margin: 26px;
+	margin-top: 60px;
 	width: 73px;
 	height: 92px;
 	background-color: #0174b1;
 	float: left;
+	border-radius: 8px;
 }
-
 .in:hover
 {
 	background-color: #0173b1c7;
+}
+a.sociallink
+{
+	display: block;
+	width: 73px;
+	height: 92px;
 }
 .content
 {
@@ -126,9 +150,10 @@ h1.logo
 {
 	background-color: #43474A;
 	width: 440px;
-	height: 576px;
+	height: 437px;
 	padding: 30px;
 	line-height: 30px;
+	border-radius: 8px;
 }
 #footer
 {
